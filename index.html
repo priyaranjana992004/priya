@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APEC Login</title>
+    <style>
+        body {
+            background: #f5f7fa;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            width: 360px;
+            margin: 70px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+            padding: 40px 30px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        h2 {
+            text-align: center;
+            color: #273c75;
+            margin-bottom: 30px;
+        }
+        .login-form label {
+            display: block;
+            color: #353b48;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 18px;
+            border: 1px solid #dcdde1;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background: #0097e6;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .login-form button:hover {
+            background: #273c75;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="logo.png" alt="Adhiparasakthi Engineering College Logo" class="logo">
+        <h2>Login to APEC Portal</h2>
+        <form class="login-form" action="#" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
